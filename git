@@ -1,0 +1,23 @@
+[user]
+  email = aeburgd@gmail.com
+  username = aburgd
+  name = Alec Burgdorf
+[credential]
+  helper = store
+[push]
+  default = simple
+[hub]
+  protocol = ssh
+[core]
+  editor = vim
+[alias]
+  co = checkout
+  aa = add --all
+  cm = commit -m
+  undo = reset HEAD~1 --mixed
+  amend = commit -a --amend
+  pushu = push -u origin master
+  st = status -s
+  caam = !git add -all && git commit -m
+  cgl = config --global --list
+cge = config --global --edit
